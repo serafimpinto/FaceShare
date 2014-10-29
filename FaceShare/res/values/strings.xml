@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FaceShare</string>
+    <string name="pic">TIRAR FOTO</string>
+    <string name="action_settings">Definições</string>
+    <string name="icone">FaceShare</string>
+    <string name="pic2">OK</string>
+    <string name="title">TÍtulo</string>
+    <string name="title2">TÍtulo</string>
+    <string name="gravar">Gravar</string>
+    <string name="app_id">277751142421545</string>
+
+</resources>

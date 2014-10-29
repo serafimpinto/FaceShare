@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/titleID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="@string/title"
+        android:imeOptions="actionDone"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/titleID"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="94dp" >
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gravar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/image1"
+        android:layout_marginBottom="109dp"
+        android:enabled="false"
+        android:scrollHorizontally="false"
+        android:text="@string/gravar" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="318dp"
+        android:layout_height="169dp"
+        android:layout_above="@+id/gravar"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="31dp"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
