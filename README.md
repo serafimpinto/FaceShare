@@ -1,0 +1,4 @@
+FaceShare
+=========
+
+Aplicação Android
